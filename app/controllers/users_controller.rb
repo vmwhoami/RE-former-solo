@@ -4,8 +4,11 @@ class UsersController < ApplicationController
   end
 
   def create
-    debugger
-   @user = User.new(user_params)
+    # debugger
+
+    @user = User.new(name: params[:name],email: params[:email],password: params[:password])
+
+  #  @user = User.new(user_params)
     if @user.save
       redirect_to new_user_path
     else 
