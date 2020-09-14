@@ -12,12 +12,27 @@
   <%# <input type="submit" value="Trimite"> %>
 <%# </form> %>
 
-<%=  form_with(url: "/user", method: "post") do %>
- <%= label_tag(:name, "Name") %>
-  <%= text_field_tag(:name) %>
-   <%= label_tag(:email, "email") %>
-  <%= text_field_tag(:email) %>
-     <%= label_tag(:password, "password") %>
-  <%= password_field_tag(:password) %>
-  <%= submit_tag("Trimite") %>
+<%#  form_with(url: "/user", method: "post") do %>
+ <%# label_tag(:name, "Name") %>
+  <%# text_field_tag(:name) %>
+   <%# label_tag(:email, "email") %>
+  <%# text_field_tag(:email) %>
+     <%# label_tag(:password, "password") %>
+  <%# password_field_tag(:password) %>
+  <%# submit_tag("Trimite") %>
+<%# end %>
+
+
+<%= form_for( @user) do |f| %>
+  <%= f.label :name: %><br>
+  <%= f.text_field :name %><br>
+
+  <%= f.label 'Email:' %><br>
+  <%= f.email_field :email %><br>
+
+  
+  <%= f.label 'Password:' %><br>
+  <%= f.password_field :email %><br>
+
+  <%= f.submit "Send" %>
 <% end %>
