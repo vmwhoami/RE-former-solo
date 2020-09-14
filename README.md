@@ -1,24 +1,38 @@
-# Re-former
+# Ruby On Rails Application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+**A re-former web application**
+**This is part of the Forms Project in The Odin Project’s Ruby on Rails Curriculum. Find it at http://www.theodinproject.com**
 
-Things you may want to cover:
+## Built with
 
-* Ruby version
+* Ruby 2.7.1p83
+* Rails 6.0.0.3
 
-* System dependencies
+## Getting Started
+* Clone the repo using this link https://github.com/vmwhoami/RE-former-solo
+* cd re-former
+* Open the terminal and insert the command "rails c" to open the rails console (irb)
 
-* Configuration
+## Authors
 
-* Database creation
 
-* Database initialization
+👤 **Vitalie**
 
-* How to run the test suite
+- Github: [@vmwhoami](https://github.com/vmwhoami)
 
-* Services (job queues, cache servers, search engines, etc.)
+- Linkedin: [Vitalie Melnic](https://www.linkedin.com/in/vitaliemelnic/)
 
-* Deployment instructions
+- Email: [contact on Gmail](vmwhoami@gmail.com)
 
-* ...
+## �� Contributing
+
+Contributions, issues and feature requests are welcome!
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Microverse
+- The Odin Project
