@@ -1,0 +1,9 @@
+
+<h1>Edit user <%=@user.name%></h1>
+
+<%= form_for(@user) do |f| %>
+  <%= f.text_field :name%>
+  <%= f.email_field :email %>
+  <%= f.password_field :password %>
+  <%= submit_tag("Trimite") %>
+<% end %>
